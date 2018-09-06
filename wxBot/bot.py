@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from wxbot import *
+from robot_ctl.robots.wxBot import *
 import ConfigParser
 import json
 

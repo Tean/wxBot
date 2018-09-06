@@ -111,15 +111,15 @@ python test.py
 
 如果运行在Linux下，还可以通过设置 **WXBot** 对象的 `conf['qr']` 为 `tty` 的方式直接在终端打印二维码(此方法只能在Linux终端下使用)，效果如下：
 
-![login_on_ubuntu](img/login_on_ubuntu.png)
+![login_on_ubuntu](../img/login_on_ubuntu.png)
 
 ## 3 效果展示
 
 测试代码 ***test.py*** 的运行效果：
 
-![向机器人发送消息](img/send_msg.png)
+![向机器人发送消息](../img/send_msg.png)
 
-![后台](img/backfront.jpg)
+![后台](../img/backfront.jpg)
 
 ## 4 接口
 ### 4.1 `handle_msg_all`
@@ -228,9 +228,9 @@ python test.py
 
 群聊实现效果：
 
-![群聊](img/group_chat.png)
+![群聊](../img/group_chat.png)
 
-![群聊后台](img/group_chat_backend.jpg)
+![群聊后台](../img/group_chat_backend.jpg)
 
 
 ***bot.py*** 的运行方法：
