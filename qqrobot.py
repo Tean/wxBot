@@ -44,7 +44,7 @@ def onExit(bot, code, reason, error):
     logger.debug('%s.onExit: %r %r %r', __name__, code, reason, error)
 
 
-def getGroups(groupname=None):
+def getQQGroups(groupname=None):
     groups = {}
     for qq in loginQQBots:
         groups[qq] = loginQQBots[qq].List('group', groupname)
